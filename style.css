@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.clock {
+    padding: 25px 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #009600;
+    font-size: 125px;
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 7px;
+    border-radius: 5px;
+    filter: blur(1px);
+}
+.clock:hover {
+    cursor: pointer;
+    background-color: rgba(61, 61, 61, 0.63);
+}
+
+@media (max-width: 840px) {
+    .clock {
+        font-size: 100px;
+    }
+}
+@media (max-width: 700px) {
+    .clock {
+        font-size: 75px;
+    }
+}
+@media (max-width: 500px) {
+    .clock {
+        font-size: 50px;
+    }
+}
+@media (max-width: 350px) {
+    .clock {
+        font-size: 35px;
+    }
+}
